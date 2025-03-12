@@ -4,12 +4,8 @@ class toDoList {
         const FULFILLED = 1;
         const REJECTED = 2;
     }
-    add(taskName) {
-        ["task" + toDoList.size()] = {
-            name: taskName,
-            state: PENDING
-        }
 
-    }
+
+}
 
 }
